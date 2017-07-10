@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Raleway-LightItalic';
+  src: url('fonts/RW Lightic/Raleway-LightItalic.eot');
+  src: url('fonts/RW Lightic/Raleway-LightItalic.woff2') format('woff2'),
+       url('fonts/RW Lightic/Raleway-LightItalic.woff') format('woff'),
+       url('fonts/RW Lightic/Raleway-LightItalic.ttf') format('truetype'),
+       url('fonts/RW Lightic/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg'),
+       url('fonts/RW Lightic/Raleway-LightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url('fonts/RW Med/Raleway-Medium.eot');
+  src: url('fonts/RW Med/Raleway-Medium.woff2') format('woff2'),
+       url('fonts/RW Med/Raleway-Medium.woff') format('woff'),
+       url('fonts/RW Med/Raleway-Medium.ttf') format('truetype'),
+       url('fonts/RW Med/Raleway-Medium.svg#Raleway-Medium') format('svg'),
+       url('fonts/RW Med/Raleway-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: url('fonts/RW Light/Raleway-Light.eot');
+  src: url('fonts/RW Light/Raleway-Light.woff2') format('woff2'),
+       url('fonts/RW Light/Raleway-Light.woff') format('woff'),
+       url('fonts/RW Light/Raleway-Light.ttf') format('truetype'),
+       url('fonts/RW Light/Raleway-Light.svg#Raleway-Light') format('svg'),
+       url('fonts/RW Light/Raleway-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('fonts/PF Reg/PlayfairDisplay-Regular.eot');
+  src: url('fonts/PF Reg/PlayfairDisplay-Regular.woff2') format('woff2'),
+       url('fonts/PF Reg/PlayfairDisplay-Regular.woff') format('woff'),
+       url('fonts/PF Reg/PlayfairDisplay-Regular.ttf') format('truetype'),
+       url('fonts/PF Reg/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'),
+       url('fonts/PF Reg/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-BoldItalic';
+  src: url('fonts/PF Boldic/PlayfairDisplay-BoldItalic.eot');
+  src: url('fonts/PF Boldic/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+       url('fonts/PF Boldic/PlayfairDisplay-BoldItalic.woff') format('woff'),
+       url('fonts/PF Boldic/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+       url('fonts/PF Boldic/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg'),
+       url('fonts/PF Boldic/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('fonts/PF Italic/PlayfairDisplay-Italic.eot');
+  src: url('fonts/PF Italic/PlayfairDisplay-Italic.woff2') format('woff2'),
+       url('fonts/PF Italic/PlayfairDisplay-Italic.woff') format('woff'),
+       url('fonts/PF Italic/PlayfairDisplay-Italic.ttf') format('truetype'),
+       url('fonts/PF Italic/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg'),
+       url('fonts/PF Italic/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url('fonts/PF Bold/PlayfairDisplay-Bold.eot');
+  src: url('fonts/PF Bold/PlayfairDisplay-Bold.woff2') format('woff2'),
+       url('fonts/PF Bold/PlayfairDisplay-Bold.woff') format('woff'),
+       url('fonts/PF Bold/PlayfairDisplay-Bold.ttf') format('truetype'),
+       url('fonts/PF Bold/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg'),
+       url('fonts/PF Bold/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-MediumItalic';
+  src: url('fonts/RW Medic/Raleway-MediumItalic.eot');
+  src: url('fonts/RW Medic/Raleway-MediumItalic.woff2') format('woff2'),
+       url('fonts/RW Medic/Raleway-MediumItalic.woff') format('woff'),
+       url('fonts/RW Medic/Raleway-MediumItalic.ttf') format('truetype'),
+       url('fonts/RW Medic/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg'),
+       url('fonts/RW Medic/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
