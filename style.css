@@ -42,8 +42,8 @@ table {
 }
 
 
-/*           CSS RESET            */
-/*      NAVI BAR      */
+/*                          CSS RESET                           */
+/*                           NAVI BAR                          */
 
 #main[tabindex="-1"]:focus {
   outline: 0;

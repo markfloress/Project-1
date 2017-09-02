@@ -5,15 +5,16 @@ $( document ).ready(function() {
     autoPlay: 3000
   });
 
-  window.scroll({
-    top: 2500, 
-    left: 0, 
-    behavior: 'smooth' 
-  });
-
-  $(function() {
-    $("a[href^='#']").not("a[href='#']").click(function() {
-        $("#"+$(this).attr("href").slice(1)+"").focus();
-    });
-  });
+  $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 700, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
 });
