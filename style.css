@@ -78,7 +78,13 @@ table {
   margin: 0 auto;
 }
 
+.nav_spacing{
+  height: 110px;
+  background-color: white;
+}
+
 header{
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   padding: 10px 0;
@@ -138,14 +144,10 @@ nav a{
 /*                                    banner section                                    */
 
 
-.hbanner{
-  padding-top: 100px;
-}
-
-.header1 {
+.hbanner {
   background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
-  url(images/banner-girl.png) center 40px no-repeat,
-  url(images/flower-bkgd.jpg) repeat-x center;
+    url(images/banner-girl.png) center 40px no-repeat,
+    url(images/flower-bkgd.jpg) repeat-x center;
   background-size: cover, contain;
   height: 400px;
   width: 100%;
@@ -485,7 +487,7 @@ nav {
 /*end of nav section*/
 /*banner section*/
 
-.header1 {
+.hbanner {
   height: 400px;
 }
 
@@ -692,7 +694,7 @@ nav li{
 
 /* end of header */
 
-.header1{
+.hbanner{
   height: 550px;
 }
 
