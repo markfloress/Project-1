@@ -111,22 +111,26 @@ header{
   padding-right: 10px;
 }
 
-.tabs {
-  color: #e2574c;
+nav {
   text-transform: uppercase;
   order: 3;
   width: 100%;
-  height: 40px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: 1px solid #d7d7d7;
 }
 
-.tabs li{
+nav li{
   margin: 0 10px; 
   display: inline-block;
   font-family: Raleway-Medium;
+}
+
+nav a{
+  color: #e2574c;
+  text-decoration: none;  
 }
 
 
@@ -468,7 +472,7 @@ footer{
   height: 60px;
 }
 
-.tabs {
+nav {
   order: 2;
   flex: 3;
   height: 40px;
@@ -682,7 +686,7 @@ footer{
    height: 60px; 
 }
 
-.tabs li{
+nav li{
     margin: 0 20px;  
 }
 
