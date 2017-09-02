@@ -78,12 +78,18 @@ table {
   margin: 0 auto;
 }
 
-.banner_text p, h1, h2
+.banner_text p, h1, .selection p, h4{
+  text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
+}
 
 .nav_spacing{
   height: 110px;
   background-color: white;
 }
+
+
+/*              global styles             */
+
 
 header{
   top: 0;
