@@ -194,7 +194,7 @@ span{
   font-weight: bold;
 }
 
-.about {
+.about_section {
   width: 100%;
   padding: 60px 0;
 }
@@ -203,7 +203,7 @@ h2{
   margin-bottom: 20px;
 }
 
-.about p{
+.about_section p{
   line-height: 2;
   margin: 10px;
 }
@@ -514,11 +514,11 @@ h2, h3, h4 {
   font-size: 40px;
 }
 
-.about {
+.about_section {
   padding: 50px 0;
 }
 
-.about p{
+.about_section p{
   line-height: 2;
   margin: 21px;
 }
@@ -706,12 +706,12 @@ nav li{
 
 /* end of banner */
 
-.about{
+.about_section{
   width: 50%;
   margin: 0 auto;
 }
 
-/* end of about */
+/* end of about_section */
 
 .categories{
   height: 725px;
