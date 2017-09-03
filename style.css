@@ -78,8 +78,14 @@ table {
   margin: 0 auto;
 }
 
-.banner_text p, h1, .selection p, h4{
+.banner_text p, h1, .product_grid p, h4{
   text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
+}
+
+h2, h3, h4 {
+  font-family: PlayfairDisplay-Regular, sans-serif;
+  font-style: italic;
+  font-size: 35px;
 }
 
 .nav_spacing{
@@ -180,14 +186,10 @@ h1 {
   font-family: Raleway-Medium;
 }
 
-/*end of banner section*/
-/*body section*/
 
-h2, h3, h4 {
-  font-family: PlayfairDisplay-Regular, sans-serif;
-  font-style: italic;
-  font-size: 35px;
-}
+/*                end of banner section               */
+/*                body section                */
+
 
 span{
   font-family: PlayfairDisplay-Regular;
@@ -215,14 +217,18 @@ p{
   color: #2d2d2d;
 }
 
-/*end of body section*/
-/*catergory section*/
 
-.categories{
+/*                      end of body section                     */
+/*                      catergory section                     */
+
+
+.product_grid{
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.selection p{
+.product_grid p{
   color: white;
   text-transform: uppercase;
   font-size: 25px;
@@ -232,12 +238,6 @@ p{
   text-align: center;
   width: 100%;
   top: 48%;
-}
-
-.selection{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
 .Mens{
@@ -530,16 +530,16 @@ p{
 /*end of body section*/
 /*category section*/
 
-.categories{
+.product_grid{
   width: 100%;
    height: 300px; 
 }
 
-.selection{
+.product_grid{
    height: 100%; 
 }
 
-.selection p{
+.product_grid p{
   font-size: 30px;
 }
 
@@ -713,7 +713,7 @@ nav li{
 
 /* end of about_section */
 
-.categories{
+.product_grid{
   height: 725px;
 }
 
