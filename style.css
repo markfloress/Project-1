@@ -307,8 +307,9 @@ p{
   border-bottom: solid 4px #fff;
 }
 
-/*end of category section*/
-/* carousel section */
+
+/*              end of category section             */
+/*              carousel section              */
 
 
 h3{
@@ -347,24 +348,27 @@ h5{
   display: none;
 } 
 
-/* end of carousel */
-/*subscribe section*/
 
-.subscribe{
+/*                        end of carousel                       */
+/*                        subscribe_container section                       */
+
+
+.subscribe_container{
   background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(images/wave-bkgd.jpg) no-repeat bottom;
   height: 330px;  
   color: white;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.subscribe p{
+.subscribe_container p{
   color: white;
   line-height: 30px; 
   margin: 20px 5px; 
 }
 
-.subs{
+.subscribe_form{
   position: relative;
   display: inline-block;
   width: 80%;
@@ -402,8 +406,10 @@ border: none;
   background-color: #b64036;
 }
 
-/*end of subsribe section*/
-/*footer section*/
+
+/*                    end of subsribe section                   */
+/*                    footer section                    */
+
 
 footer{
   margin: 10px 0 0 0;
@@ -606,18 +612,18 @@ h5{
 }
 
 /* end of carousel section */
-/*subscribe section*/
+/*subscribe_container section*/
 
-.subscribe{
+.subscribe_container{
     height: 380px;  
 }
 
-.subscribe p{
+.subscribe_container p{
   line-height: 35px; 
   margin: 25px 10px;
 }
 
-.subs{
+.subscribe_form{
   width: 70%;
 }
 
@@ -731,20 +737,20 @@ nav li{
 
 /* end of carousel */
 
-.subscribe{
+.subscribe_container{
   height: 350px;
 }
 
-.subtext{
+.subscribe_container{
   margin: 0 auto;
   width: 50%;
 }
 
-.subtext p{
+.subscribe_container p{
   padding: 0 5px;
 }
 
-/* end of subscribe */
+/* end of subscribe_container */
 
 .bottom{
   width: 90%;
