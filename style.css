@@ -387,30 +387,18 @@ outline: none;
 footer{
   margin-top: 10px;
   background-color: #242424;
-  height: 300px; 
-  width: 100%;
+  padding: 65px 0;
   display: flex;
   align-items: center;
 }
 
 footer{
-  width: 100%;
-  height: 50%; 
   display: flex;
   flex-direction: column;
-  align-content: space-around;
 }
 
 .trademark, .address{
   margin-bottom: 10px;
-}
-
-.trademark p{
-  text-align: center;
-}
-
-.address p{
-  text-align: center;
 }
 
 .contact{
@@ -422,10 +410,7 @@ footer{
 }
 
 .social{
-  height: 10%;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }
 
 .social li{
