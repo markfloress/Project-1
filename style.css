@@ -721,7 +721,6 @@ nav li{
   width: 100%;
   margin: 0 auto;
   height: 345px;
-  margin-bottom: 6px;
   display: block;
 }
 
@@ -737,7 +736,7 @@ nav li{
 /* end of subscribe_container */
 
 footer{
-  width: 90%;
-  margin: 0 auto;
+  padding: 60px 20px;
+  box-sizing: border-box;
 }
 }
