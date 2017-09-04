@@ -334,7 +334,7 @@ h4{
   padding-bottom: 10px;
 }
 
-#email{
+.email{
 height: 40px; 
 width: 100%; 
 border-radius: 25px;
@@ -344,9 +344,9 @@ box-sizing: border-box;
 outline: none;
 }
 
-#sub{
+.subscribe{
   position: absolute;   
-  top: 3.5px;  
+  top: 3.25px;  
   right: 3px; 
   height: 35px; 
   border-radius: 25px;
@@ -358,7 +358,7 @@ outline: none;
   outline: none;
 }
 
-#sub :hover{
+.subscribe:hover{
   background-color: #b64036;
 }
 
