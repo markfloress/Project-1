@@ -468,7 +468,7 @@ footer{
   }
 
   .product_grid{
-    font-size: 32px;
+    font-size: 30px;
   }
      
   .banner_text p, .about_section p, .subscribe_container p{
@@ -518,10 +518,6 @@ nav {
 /*end of nav section*/
 /*banner section*/
 
-.hero_banner {
-  height: 400px;
-}
-
 .banner_text{
   width: 90%;
 }
@@ -538,7 +534,7 @@ h1 {
 /* about section */
 
 .about_section {
-  padding: 50px 0;
+  padding: 55px 0;
 }
 
 .about_section p{
@@ -551,48 +547,39 @@ h1 {
 
 .product_grid{
   width: 100%;
-  height: 300px; 
+  height: 100%; 
 }
 
-.product_grid{
-   height: 100%; 
+.product_grid div{
+  padding-bottom: 25%;  
 }
 
-.Mens{
+.product_grid .Mens{
   width: 50%; 
-  padding-bottom: 10%;
-  border: 4px solid white;
-  border-left: 0; 
+  border-right: 4px solid white;
 }
 
-.Trends{
+.product_grid .Trends{
+  width: 25%; 
+  border-left: 4px solid white;
+}
+
+.product_grid .Glasses{
+  width: 25%; 
+}
+
+.product_grid .Sale{
   width: 25%;
-  padding-bottom: 10%; 
-  border: 4px solid white;
 }
 
-.Glasses{
+.product_grid .Bags{
   width: 25%;
-  padding-bottom: 10%; 
+  border-right: 4px solid white;
 }
 
-.Sale{
-  width: 25%;
-  padding-bottom: 10%;
-}
-
-.Bags{
-  width: 25%;
-  padding-bottom: 10%;
-  padding-right: 4px;
-  border: 4px solid white;
-}
-
-.Women{
+.product_grid .Women{
   width: 50%;
-  padding-bottom: 10%;
-  border: 4px solid white;
-  border-right: 0;
+  border-left: 4px solid white;
 }
 
 /*end category section*/
