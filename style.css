@@ -162,7 +162,6 @@ nav a{
     url(images/flower-bkgd.jpg) repeat-x center;
   background-size: cover, contain;
   height: 400px;
-  width: 100%;
   display: flex;
   justify-content: center; 
   align-items: center;
