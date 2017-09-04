@@ -681,12 +681,12 @@ footer{
 
 @media only screen and (min-width:1240px){
 
-.navi img{
-   height: 60px; 
+.logo{
+  height: 60px; 
 }
 
 nav li{
-    margin: 0 20px;  
+  margin: 0 20px;  
 }
 
 /* end of header */
