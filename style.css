@@ -116,8 +116,16 @@ nav a, h4{
   color: #e2574c;
 }
 
+nav a:hover{
+  color: #b64036;
+}
+
 .banner_text, .product_grid, .subscribe_container, .trademark, .social{
   color: white;
+}
+
+.product_grid p:hover{
+  color: #f5ebc6;
 }
 
 .about_section, h3{
