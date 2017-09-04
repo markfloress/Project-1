@@ -90,9 +90,6 @@ table {
 
 /*              global styles             */
 
-nav a, h4{
-  color: #e2574c;
-}
 
 h1, h2, h3, h4, h5, .footer_text p {
   font-family: PlayfairDisplay-Regular, serif;
@@ -102,11 +99,24 @@ nav a, p{
   font-family: Raleway-Medium, sans-serif;
 }
 
+/* font families */
+
 h2, h3, h5{
   font-style: italic;
 }
 
-.banner_text, .product_grid, .subscribe_container, .trademark{
+h2 span, h3 span, h5 span{
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* font styles */
+
+nav a, h4{
+  color: #e2574c;
+}
+
+.banner_text, .product_grid, .subscribe_container, .trademark, .social{
   color: white;
 }
 
@@ -116,6 +126,25 @@ h2, h3, h5{
 
 .carousel-cell, .address{
   color: #969696;
+}
+
+/* font colors */
+
+h1{
+  font-size: 36px;
+}
+
+h2, h3, h5{
+  font-size: 32px;
+}
+
+.product_grid{
+  font-size: 21px;
+}
+
+.banner_text p, .about_section p, .carousel-cell p, .subscribe_container p{
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 /*                typography styles                */
