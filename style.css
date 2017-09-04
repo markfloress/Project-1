@@ -102,6 +102,17 @@ nav a, p{
   font-family: Raleway-Medium, sans-serif;
 }
 
+.banner_text, .product_grid, .subscribe_container, .trademark{
+  color: white;
+}
+
+.about_section, h3{
+  color: #2d2d2d;
+}
+
+.carousel-cell{
+  color: #969696;
+}
 
 /*                typography styles                */
 
