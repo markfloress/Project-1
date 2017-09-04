@@ -82,12 +82,6 @@ table {
   text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 }
 
-h2, h3, h4 {
-  font-family: PlayfairDisplay-Regular, sans-serif;
-  font-style: italic;
-  font-size: 35px;
-}
-
 .nav_spacing{
   height: 110px;
   background-color: white;
@@ -95,6 +89,16 @@ h2, h3, h4 {
 
 
 /*              global styles             */
+
+
+h2, h3, h4 {
+  font-family: PlayfairDisplay-Regular, sans-serif;
+  font-style: italic;
+  font-size: 35px;
+}
+
+
+/*                typography styles                */
 
 
 header{
@@ -145,11 +149,9 @@ nav {
 nav li{
   margin: 0 10px; 
   display: inline-block;
-  font-family: Raleway-Medium;
 }
 
 nav a{
-  color: #e2574c;
   text-decoration: none;  
 }
 
@@ -165,7 +167,6 @@ nav a{
   background-size: cover, contain;
   height: 400px;
   width: 100%;
-  color: #fff;
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -175,15 +176,9 @@ nav a{
   width: 80%;
 }
 
-h1 {
-  font-family: PlayfairDisplay-Regular;
-}
-
 .banner_text p{
   text-transform: uppercase;
-  color: #fff;
   line-height: 50px;
-  font-family: Raleway-Medium;
 }
 
 
@@ -191,14 +186,9 @@ h1 {
 /*                body section                */
 
 
-span{
-  font-family: PlayfairDisplay-Regular;
-  font-weight: bold;
-}
-
 .about_section {
   width: 100%;
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 h2{
@@ -208,13 +198,6 @@ h2{
 .about_section p{
   line-height: 2;
   margin: 10px;
-}
-
-p{
-  font-family: Raleway-Medium, sans-serif;
-  font-weight: lighter;
-  font-size: 16px;
-  color: #2d2d2d;
 }
 
 
@@ -229,11 +212,7 @@ p{
 }
 
 .product_grid p{
-  color: white;
   text-transform: uppercase;
-  font-size: 25px;
-  font-family: Raleway-Medium;
-  font-weight: lighter;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -241,7 +220,8 @@ p{
 }
 
 .Mens{
-  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(images/mens-category.jpg);
+  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
+    url(images/mens-category.jpg);
   width: 100%;
   background-size: cover;
   padding-bottom: 50%;
@@ -253,7 +233,8 @@ p{
 
 
 .Trends{
-  background: linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.25)), url(images/trends-category.jpg);
+  background: linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.25)), 
+    url(images/trends-category.jpg);
   width: 50%;
   background-size: cover;
   border: 4px solid white;
@@ -264,7 +245,8 @@ p{
 }
 
 .Glasses{
-  background: linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.25)), url(images/glasses-category.jpg);
+  background: linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.25)), 
+    url(images/glasses-category.jpg);
   width: 50%;
   background-size: cover;
   border: 4px solid white;
@@ -275,7 +257,8 @@ p{
 }
 
 .Sale{
-  background: linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.25)), url(images/sale-category.jpg);
+  background: linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.25)), 
+    url(images/sale-category.jpg);
   width: 50%;
   background-size: cover;
   border: 4px solid white;
@@ -286,7 +269,8 @@ p{
 }
 
 .Bags{
-  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(images/bags-category.jpg);
+  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
+    url(images/bags-category.jpg);
   width: 50%;
   background-size: cover;
   border: 4px solid white;
@@ -297,7 +281,8 @@ p{
 }
 
 .Women{
-  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(images/womens-category.jpg);
+  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
+    url(images/womens-category.jpg);
   width: 100%;
   background-size: cover;
   padding-bottom: 50%;
@@ -316,14 +301,9 @@ h3{
   margin-top: 60px;
 }
 
-h5{
-  font-size: 20px;
-}
-
 .main-carousel{
    margin: 20px 0 60px 0; 
    height: 100%;
-  /* min-height: 500px; */
 }
 
 .carousel-cell {
@@ -331,11 +311,9 @@ h5{
   margin: 42px 0;  
   height: 420px; 
   width: 100%;  
-  color: #e2574c;
 }
 
 .carousel-cell p{
-  color: #969696;
   text-transform: uppercase;
   margin: 15px 0;
 }
@@ -354,16 +332,15 @@ h5{
 
 
 .subscribe_container{
-  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(images/wave-bkgd.jpg) no-repeat bottom;
+  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
+    url(images/wave-bkgd.jpg) no-repeat bottom;
   height: 330px;  
-  color: white;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .subscribe_container p{
-  color: white;
   line-height: 30px; 
   margin: 20px 5px; 
 }
@@ -372,7 +349,6 @@ h5{
   position: relative;
   display: inline-block;
   width: 80%;
-  /* height: 50px; */
 }
 
 #email{
@@ -380,10 +356,9 @@ height: 40px;
 width: 100%; 
 border-radius: 25px;
 border: none;
- padding-left: 20px; 
- box-sizing: border-box;
- color: #969696;
- outline: none;
+padding-left: 20px; 
+box-sizing: border-box;
+outline: none;
 }
 
 #sub{
@@ -396,8 +371,6 @@ border: none;
   padding: 0 10px;
   box-sizing: border-box;
   width: 100px;
-  font-size: 13px;
-  color: #fff;
   background-color: #e2574c;
   outline: none;
 }
@@ -412,7 +385,7 @@ border: none;
 
 
 footer{
-  margin: 10px 0 0 0;
+  margin-top: 10px;
   background-color: #242424;
   height: 300px; 
   width: 100%;
@@ -429,19 +402,15 @@ footer{
 }
 
 .trademark, .address{
-    margin: 0 0 10px 0;
+  margin-bottom: 10px;
 }
 
 .trademark p{
-  color: white;
-  font-family: PlayfairDisplay-regular;
   text-align: center;
 }
 
 .address p{
-  color: #969696;
   text-align: center;
-  font-family: PlayfairDisplay-Regular;
 }
 
 .contact{
@@ -453,7 +422,6 @@ footer{
 }
 
 .social{
-  color: #FFF;
   height: 10%;
   display: flex;
   justify-content: center;
@@ -461,7 +429,7 @@ footer{
 }
 
 .social li{
-    margin: 10px;
+  margin: 10px;
 }
 
 .socialtext{
