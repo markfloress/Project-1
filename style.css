@@ -613,6 +613,11 @@ h1 {
   height: 380px;  
 }
 
+.subscribe{
+  height: 40px;
+  top: 5%;
+}
+
 .subscribe_container p{
   line-height: 35px; 
   margin: 25px 10px;
@@ -730,6 +735,10 @@ nav li{
   margin: 0 auto;
   height: 345px;
   display: block;
+}
+
+.subscribe{
+  top: 9%;
 }
 
 .subscribe_container p{
