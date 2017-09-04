@@ -102,6 +102,10 @@ nav a, p{
   font-family: Raleway-Medium, sans-serif;
 }
 
+h2, h3, h5{
+  font-style: italic;
+}
+
 .banner_text, .product_grid, .subscribe_container, .trademark{
   color: white;
 }
@@ -110,7 +114,7 @@ nav a, p{
   color: #2d2d2d;
 }
 
-.carousel-cell{
+.carousel-cell, .address{
   color: #969696;
 }
 
@@ -351,18 +355,18 @@ h5{
 }
 
 .email{
-height: 40px; 
-width: 100%; 
-border-radius: 25px;
-border: none;
-padding-left: 20px; 
-box-sizing: border-box;
-outline: none;
+  height: 40px; 
+  width: 100%; 
+  border-radius: 25px;
+  border: none;
+  padding-left: 20px; 
+  box-sizing: border-box;
+  outline: none;
 }
 
 .subscribe{
   position: absolute;   
-  top: 3.25px;  
+  top: 3px;  
   right: 3px; 
   height: 35px; 
   border-radius: 25px;
