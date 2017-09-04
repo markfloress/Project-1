@@ -698,20 +698,15 @@ nav li{
 /* end of banner */
 
 .about_section{
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
 }
 
 /* end of about_section */
 
-.product_grid{
-  height: 725px;
-}
-
-/* end of grid */
-
 .main-carousel{
   width: 85%;
+  padding-top: 40px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
@@ -723,16 +718,20 @@ nav li{
 /* end of carousel */
 
 .subscribe_container{
-  height: 350px;
-}
-
-.subscribe_container{
+  width: 100%;
   margin: 0 auto;
-  width: 50%;
+  height: 345px;
+  margin-bottom: 6px;
+  display: block;
 }
 
 .subscribe_container p{
-  padding: 0 5px;
+  width: 55%;
+  margin: 40px auto;
+}
+
+.subscribe_form{
+  width: 35%;
 }
 
 /* end of subscribe_container */
