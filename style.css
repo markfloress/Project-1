@@ -459,21 +459,29 @@ footer{
 
 @media only screen and (min-width:600px){
 
-  h2, h3, h4 {
+  h1{
+    font-size: 50px;
+  }
+
+  h2, h3, h5 {
     font-size: 40px;
   }
-  
-  .about_section {
-    padding: 50px 0;
+
+  .product_grid{
+    font-size: 32px;
   }
-  
-  .about_section p{
-    line-height: 2;
-    margin: 21px;
+     
+  .banner_text p, .about_section p, .subscribe_container p{
+    font-size: 18px;
+    font-weight: lighter;
   }
-  
-  p{
-    font-size: 70px;
+
+  .carousel-cell p{
+    font-size: 14px;
+  }
+
+  h4{
+    font-size: 24px;
   }
 
 /* global styles */
@@ -527,6 +535,18 @@ h1 {
 }
 
 /*end of banner section*/
+/* about section */
+
+.about_section {
+  padding: 50px 0;
+}
+
+.about_section p{
+  line-height: 2;
+  margin: 21px;
+}
+
+/* end about section */
 /*category section*/
 
 .product_grid{
