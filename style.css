@@ -496,6 +496,10 @@ nav {
   height: 400px;
 }
 
+.banner_text{
+  width: 90%;
+}
+
 h1 {
   font-size: 50px;
   padding: 0 30px;
